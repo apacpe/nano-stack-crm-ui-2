@@ -55,13 +55,15 @@ The following are instructions to create a custom CRM UI card and deploy it to H
     }
 ```
 
-4. In your terminal, navigate to the extensions folder 
+4. Create a blank file called custom-function.js in the app.functions folder. 
 
-5. Install the HubSpot UI extensions npm package in the extensions folder by running `npm i @hubspot/ui-extensions`
+5. In your terminal, navigate to the extensions folder 
 
-6. Create a new file called Custom.jsx in the extensions folder with `touch Custom.jsx`
+6. Install the HubSpot UI extensions npm package in the extensions folder by running `npm i @hubspot/ui-extensions`
 
-7. Import these components at the top of the file
+7. Create a new file called Custom.jsx in the extensions folder with `touch Custom.jsx` (Mac) or `code -r Custom.jsx` (Windows) 
+
+8. Import these components at the top of the Custom.jsx file
 
 ```
 import React, { useState, useEffect } from 'react';
